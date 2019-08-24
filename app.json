@@ -1,0 +1,23 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "description": "learning heroky ci",
+  "env": {
+    "KEY": "VALUE"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "training.heroku_node",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
